@@ -24,6 +24,8 @@ def main():
 		print("xor   eax, eax")
 		print("mov   al, 0x", end='')
 		print(hex(ord(val[c*4]))[2:])
+	if (len(val)-c*4)==0:
+		print("xor   eax, eax")
 	print("push  eax")
 	c = c -1
 	while c >= 0:
