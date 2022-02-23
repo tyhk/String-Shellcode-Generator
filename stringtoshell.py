@@ -2,7 +2,7 @@ import sys
 
 def main():
 	if len(sys.argv) != 2:
-		print("Usage: %s <ip_address>\n" % (sys.argv[0]))
+		print("Usage: %s <string>\n" % (sys.argv[0]))
 		sys.exit(1)
 	val = sys.argv[1];
 	n = int(len(val)/4)+1
